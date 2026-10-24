@@ -1,0 +1,3 @@
+display_name: Mobile Prototype Stage V2
+short_description: Build frameless mobile prototype stages with scenario controls and transparent system bars.
+default_prompt: Use this skill to build or adapt a mobile-first prototype where desktop shows a 393px mobile surface in a polished stage with compact scenario controls.
