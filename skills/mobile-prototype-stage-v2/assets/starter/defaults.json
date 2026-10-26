@@ -1,0 +1,48 @@
+{
+  "mode": "editing",
+  "breakpoint": 768,
+  "platform": "ios",
+  "appearance": "light",
+  "scene": {
+    "width": 393,
+    "height": 852,
+    "radiusByPlatform": {
+      "ios": 60,
+      "android": 50
+    }
+  },
+  "presentation": {
+    "device": "platform-matched",
+    "iphoneFinish": "graphite",
+    "scalePercent": 90,
+    "offsetXPercent": 0,
+    "offsetYPercent": 0,
+    "aspectRatio": "auto",
+    "cursorHidden": false
+  },
+  "background": {
+    "type": "gradient",
+    "color1": "#faf9f6",
+    "color2": "#dfeb8d",
+    "angle": 135,
+    "image": {
+      "preset": "hand-dark",
+      "fit": "cover",
+      "scalePercent": 100,
+      "offsetXPercent": 0,
+      "offsetYPercent": 0,
+      "settingsExpanded": false
+    },
+    "gallery": [
+      {
+        "id": "hand-dark",
+        "label": "Рука · тёмный фон",
+        "src": "../presentation/backgrounds/hand-dark.png"
+      }
+    ],
+    "colorSources": {
+      "color1": "Product #surface background (light)",
+      "color2": "Product .art card background (light)"
+    }
+  }
+}
