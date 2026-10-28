@@ -14,19 +14,162 @@
   "presentation": {
     "device": "platform-matched",
     "iphoneFinish": "graphite",
-    "scalePercent": 90,
+    "scalePercent": 100,
     "offsetXPercent": 0,
     "offsetYPercent": 0,
-    "aspectRatio": "auto",
-    "cursorHidden": false
+    "aspectRatio": "4:3",
+    "cursorHidden": false,
+    "anglePreset": "reference",
+    "anglePresets": [
+      {
+        "id": "reference",
+        "label": "Под наклоном",
+        "screenCorners": [
+          [
+            406.96,
+            225.445
+          ],
+          [
+            610.09,
+            183.585
+          ],
+          [
+            793.04,
+            668.485
+          ],
+          [
+            589.45,
+            716.415
+          ]
+        ],
+        "compositionTranslation": {
+          "x": 134.18,
+          "y": 156.785
+        },
+        "camera": {
+          "principalX": 134.18,
+          "principalY": 156.785
+        }
+      },
+      {
+        "id": "front",
+        "label": "Прямо",
+        "screenCorners": [
+          [
+            485.5,
+            203
+          ],
+          [
+            714.5,
+            203
+          ],
+          [
+            714.5,
+            697
+          ],
+          [
+            485.5,
+            697
+          ]
+        ],
+        "handAsset": "../presentation/hands/holding-front.png",
+        "foregroundThumb": {
+          "asset": "../presentation/hands/front-thumb.png",
+          "width": 150,
+          "height": 230,
+          "sourceOffsetX": 404,
+          "sourceOffsetY": 158
+        },
+        "handTransform": [
+          0.5,
+          0,
+          0,
+          0.5,
+          214.5,
+          512
+        ]
+      },
+      {
+        "id": "third",
+        "label": "В ладони",
+        "screenCorners": [
+          [
+            452.39488076,
+            181.51725443
+          ],
+          [
+            677.48430176,
+            204.12061852
+          ],
+          [
+            747.60511924,
+            718.48274557
+          ],
+          [
+            515.60943636,
+            708.28539525
+          ]
+        ],
+        "handAsset": "../presentation/hands/holding-third.png",
+        "foregroundFingers": {
+          "asset": "../presentation/hands/third-fingers.png",
+          "width": 138,
+          "height": 389,
+          "sourceOffsetX": 190,
+          "sourceOffsetY": 360
+        },
+        "camera": {
+          "focal": 4965.50649038,
+          "principalX": 666.35184886,
+          "principalY": 546.5415365,
+          "calibration": "Native-aspect solvePnP against measured inner screen edges in user reference 1.png",
+          "referenceFitRmsPixels": 0.333586
+        },
+        "handTransform": [
+          0.614768115,
+          -0.022363765,
+          0.022363765,
+          0.614768115,
+          296.37823199,
+          302.61516766
+        ],
+        "compositionTranslation": {
+          "x": 64.44612924,
+          "y": 107.77157331
+        }
+      }
+    ],
+    "handsEnabled": true,
+    "referenceComposition": {
+      "width": 1200,
+      "height": 900,
+      "static": true,
+      "layers": {
+        "holdingHand": "../presentation/hands/holding-left.png",
+        "device": "existing-live-device",
+        "touchingHand": "../presentation/hands/tapping-right.png",
+        "frontHand": {
+          "asset": "../presentation/hands/left-hand-front.png",
+          "width": 235,
+          "height": 575,
+          "sourceOffsetX": 215,
+          "sourceOffsetY": 40
+        }
+      }
+    },
+    "iphoneRenderer": "threejs-glb",
+    "iphoneModel": "../presentation/models/iphone-18-pro-max.glb",
+    "androidRenderer": "threejs-glb",
+    "androidModel": "../presentation/models/pixel-10-pro.glb",
+    "androidFinish": "graphite"
   },
   "background": {
-    "type": "gradient",
-    "color1": "#faf9f6",
+    "type": "solid",
+    "color1": "#aaaaaa",
     "color2": "#dfeb8d",
     "angle": 135,
     "image": {
-      "preset": "hand-dark",
+      "preset": "folder-1.png",
       "fit": "cover",
       "scalePercent": 100,
       "offsetXPercent": 0,
@@ -35,13 +178,33 @@
     },
     "gallery": [
       {
-        "id": "hand-dark",
-        "label": "Рука · тёмный фон",
-        "src": "../presentation/backgrounds/hand-dark.png"
+        "id": "folder-1.png",
+        "label": "Фон 1",
+        "src": "../presentation/backgrounds/presets/1.png"
+      },
+      {
+        "id": "folder-2.png",
+        "label": "Фон 2",
+        "src": "../presentation/backgrounds/presets/2.png"
+      },
+      {
+        "id": "folder-3.png",
+        "label": "Фон 3",
+        "src": "../presentation/backgrounds/presets/3.png"
+      },
+      {
+        "id": "folder-4.png",
+        "label": "Фон 4",
+        "src": "../presentation/backgrounds/presets/4.png"
+      },
+      {
+        "id": "folder-5.png",
+        "label": "Фон 5",
+        "src": "../presentation/backgrounds/presets/5.png"
       }
     ],
     "colorSources": {
-      "color1": "Product #surface background (light)",
+      "color1": "Neutral gray from user-supplied reference 3.png",
       "color2": "Product .art card background (light)"
     }
   }

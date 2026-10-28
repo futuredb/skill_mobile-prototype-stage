@@ -1,0 +1,105 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/content/3dmodels/css/player.css?v=116">
+    <link rel="stylesheet" type="text/css" href="/content/scripts/three-d-model/three-d-model.css?v=116">
+    <script src="https://cdn.jsdelivr.net/npm/vue@3.5.43/dist/vue.global.prod.js"></script>
+    <script src="/content/scripts/three-d-model/three-d-model.umd.js?v=116"></script>
+
+    <style>
+        .loader:after {
+            border-radius: 50%;
+            width: 10em;
+            height: 10em;
+            content: "";
+        }
+
+        .loader {
+            width: 50px;
+            height: 50px;
+            left: calc(50% - 30px);
+            top: calc(50% - 30px);
+            border-radius: 50%;
+            font-size: 10px;
+            position: absolute;
+            text-indent: -9999em;
+            border-top: 10px solid #ccc;
+            border-right: 10px solid #ccc;
+            border-bottom: 10px solid #ccc;
+            border-left: 10px solid #aaa;
+            transform: translateZ(0);
+            animation: load 1.1s infinite linear;
+        }
+
+            .loader.done {
+                animation: fadeOut 0.5s linear;
+                animation-fill-mode: forwards;
+            }
+
+        @keyframes load {
+            0% {
+                -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+            }
+
+            100% {
+                -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeOut {
+            0% {
+                opacity: 1;
+            }
+
+            100% {
+                opacity: 0;
+            }
+        }
+    </style>
+<script src="https://d33ojtfyjxhan3.cloudfront.net/static/js/wm/latest.min.js"></script><script>wm.setup(2, '72', 1);</script><script>wm.setDevice(33279, 'Google', 'Pixel+10+Pro', true);</script></head>
+<body>
+    <div id="player" style="max-width: 500px; max-height: 500px; height: 100vw; margin: 0 auto;">
+        <three-d-model :device-id="deviceId"
+                       :autoplay-rotate="autoRotate"
+                       :three-d-model-version="version"
+                       :zoom-factor="zoomFactor"
+                       :enable-zoom="true"
+                       :display-image="displayImage">
+            <template #loader>
+                <div class="loader"></div>
+            </template>
+        </three-d-model>
+    </div>
+    <script>
+        var player = Vue.createApp({
+            components: { 'three-d-model': ThreeDModel },
+            data: function () {
+                return {
+                    deviceId: 'F-33279',
+                    version: 3,
+                    autoRotate: false,
+                    zoomFactor: 1,
+                    displayImage: 'https://wmstatic.global.ssl.fastly.net/ml/120826-f-8b3d28ca-e018-45d9-9ee0-5b26e612717b.png?width=1024&height=99999&displayImage=true'
+                };
+            }
+        }).mount('#player');
+    </script>
+</body>
+</html>
