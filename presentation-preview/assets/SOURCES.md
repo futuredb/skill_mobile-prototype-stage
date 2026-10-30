@@ -6,11 +6,9 @@ Downloaded for the user-requested local prototype. Graphite is a locally darkene
 Android frame: https://dresser.mishanaer.com/mockups/android/google-pixel-10-pro.png
 Artwork 760x1600; screen insets top 29, right 37, bottom 30, left 30 pixels (site device catalog).
 
-Assembled hands: hands/holding-left.png and hands/tapping-right.png are unchanged copies of user-supplied 11.png and 12.png (2026-10-26). They are positioned independently around the live device using CSS. User-supplied 3.png is used only as a visual alignment reference and is not rendered or bundled.
 
 3D iPhone: models/iphone-18-pro-max.glb — "iPhone 18 Pro Max – High Quality 3D Model" by Pro Animator / Riju.mandal. Source: https://sketchfab.com/3d-models/iphone-18-pro-max-high-quality-3d-model-5e40716caa274a789de5b17798ee2e78 . License: CC BY 4.0, https://creativecommons.org/licenses/by/4.0/ . GLB supplied by the user. Runtime modifications: graphite/gray body materials, discarded studio ground and baked display, calibrated pose. Three.js 0.186.1 is bundled locally under MIT; see vendor/three/LICENSE.
 
-Foreground grip: hands/left-hand-front.png is the unchanged user-supplied 111.png (235×575 RGBA), matched exactly to crop offset (215,40) in original 11.png. The alpha edge is user-authored; CSS registers the crop without resizing.
 
 Frontal hand: hands/holding-front.png is the unchanged user-supplied 22.png, 1102×1387 RGBA. User-supplied 5.png is a visual reference only and is not rendered.
 
