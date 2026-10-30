@@ -39,8 +39,10 @@
 
 В iPhone-презентации используется присланная GLB-модель, отрисованная через локальный Three.js, с графитовым или серым корпусом. Автор модели — [Pro Animator](https://sketchfab.com/Riju.mandal), [исходная модель](https://sketchfab.com/3d-models/iphone-18-pro-max-high-quality-3d-model-5e40716caa274a789de5b17798ee2e78), лицензия [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Изменены материалы корпуса и размещение; исходная подставка и готовый экран не отображаются.
 
-### Local background folder
+### Background gallery
 
-Run `python scripts/serve-local.py` from the project folder. Open http://127.0.0.1:8765/skills/mobile-prototype-stage-v2/assets/starter/. The local server reads image files from the sibling `../bg-image` folder. Choose Background → Image to refresh the gallery, or use its Refresh button. PNG, JPEG, WebP, AVIF, GIF and SVG are supported. Gallery removal hides a folder entry for the current page session and never deletes the original file. This folder integration requires the custom local server; a static deployment retains manual file upload.
+Все изображения из `skills/mobile-prototype-stage-v2/assets/presentation/backgrounds/` и подпапок включаются в галерею. Поддерживаются PNG, JPEG, WebP, AVIF, GIF и SVG.
 
-Background preset behavior (current): five user-provided images are bundled under `backgrounds/presets/`, available on static hosting without the folder endpoint. Preset thumbnails have no delete controls. Uploaded images replace the visible preset gallery while any uploads exist; deleting the last upload restores presets. Local folder refresh updates the preset collection without exposing it during custom upload mode. This supersedes the earlier per-preset deletion behavior.
+Перед копированием или публикацией выполните `python3 skills/mobile-prototype-stage-v2/scripts/backgrounds.py`: команда обновит галерею шаблона и defaults.json. После изменения файлов на статическом хостинге требуется повторная публикация.
+
+Для локального просмотра с перечитыванием папки используйте `python3 skills/mobile-prototype-stage-v2/scripts/backgrounds.py --serve --port 8765` и откройте http://127.0.0.1:8765/assets/starter/. Кнопка «Обновить» перечитывает папку; исходные файлы не удаляются из интерфейса.

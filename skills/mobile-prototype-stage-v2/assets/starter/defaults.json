@@ -169,7 +169,7 @@
     "color2": "#dfeb8d",
     "angle": 135,
     "image": {
-      "preset": "folder-1.png",
+      "preset": "folder-presets/1.png",
       "fit": "cover",
       "scalePercent": 100,
       "offsetXPercent": 0,
@@ -178,29 +178,64 @@
     },
     "gallery": [
       {
-        "id": "folder-1.png",
-        "label": "Фон 1",
-        "src": "../presentation/backgrounds/presets/1.png"
+        "id": "folder-hand-dark.png",
+        "label": "hand-dark",
+        "src": "../presentation/backgrounds/hand-dark.png?v=1793372425244029666"
       },
       {
-        "id": "folder-2.png",
-        "label": "Фон 2",
-        "src": "../presentation/backgrounds/presets/2.png"
+        "id": "folder-presets/1.png",
+        "label": "1",
+        "src": "../presentation/backgrounds/presets/1.png?v=1793371412280131502"
       },
       {
-        "id": "folder-3.png",
-        "label": "Фон 3",
-        "src": "../presentation/backgrounds/presets/3.png"
+        "id": "folder-presets/2.png",
+        "label": "2",
+        "src": "../presentation/backgrounds/presets/2.png?v=1793187158384938511"
       },
       {
-        "id": "folder-4.png",
-        "label": "Фон 4",
-        "src": "../presentation/backgrounds/presets/4.png"
+        "id": "folder-presets/3.png",
+        "label": "3",
+        "src": "../presentation/backgrounds/presets/3.png?v=1793372216177787999"
       },
       {
-        "id": "folder-5.png",
-        "label": "Фон 5",
-        "src": "../presentation/backgrounds/presets/5.png"
+        "id": "folder-presets/4.png",
+        "label": "4",
+        "src": "../presentation/backgrounds/presets/4.png?v=1793187158393625768"
+      },
+      {
+        "id": "folder-presets/5.png",
+        "label": "5",
+        "src": "../presentation/backgrounds/presets/5.png?v=1793371407692726758"
+      },
+      {
+        "id": "folder-presets/6.png",
+        "label": "6",
+        "src": "../presentation/backgrounds/presets/6.png?v=1793371419067377412"
+      },
+      {
+        "id": "folder-presets/7.png",
+        "label": "7",
+        "src": "../presentation/backgrounds/presets/7.png?v=1793371556223082523"
+      },
+      {
+        "id": "folder-presets/8.png",
+        "label": "8",
+        "src": "../presentation/backgrounds/presets/8.png?v=1793372287983036880"
+      },
+      {
+        "id": "folder-presets/9.png",
+        "label": "9",
+        "src": "../presentation/backgrounds/presets/9.png?v=1793371691654591984"
+      },
+      {
+        "id": "folder-presets/10.png",
+        "label": "10",
+        "src": "../presentation/backgrounds/presets/10.png?v=1793371715087457637"
+      },
+      {
+        "id": "folder-presets/11.png",
+        "label": "11",
+        "src": "../presentation/backgrounds/presets/11.png?v=1793372162627846940"
       }
     ],
     "colorSources": {
