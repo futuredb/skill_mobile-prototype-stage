@@ -21,3 +21,7 @@ Third hand composition: holding-third.png is unchanged user-supplied 33.png, 111
 ## Pixel 10 Pro 3D
 
 User-requested model from EE device guides: https://deviceguides.ee.co.uk/google/pixel-10-pro-android-16/3d-model-iframe/?116 . Viewer device F-33279, version 3; actual asset https://cdn.sp-selfservice.com/3dmodels/v3/F-33279/model.glb . Saved unchanged as models/pixel-10-pro.glb (7,062,740 bytes). Source attribution is retained in the UI. No redistribution license was supplied by the viewer; this source is distinct from the iPhone CC BY model. Front baked screen is replaced by the interactive prototype; native hardware materials are retained.
+
+Front 2 pose: user-supplied 44.png (1006 × 1335) copied unchanged as hands/holding-front-two.png; 444.png (205 × 483) copied unchanged as hands/front-two-fingers.png. Foreground crop registers at (153,427) in the full source canvas. Both use uniform scale 0.5186580000000001 and translation (347.84549656,308.04883711).
+
+Current inclined grip assets (2026-11-02): holding-left.png / 11.png is 1143 × 1328; left-hand-front.png / 111.png is 641 × 870, registered at source (327,36). Both share uniform source scale 770/1143 before the calibrated projection. The tapping hand and playback feature are absent.
