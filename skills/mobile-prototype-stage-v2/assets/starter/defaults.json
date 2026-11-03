@@ -79,12 +79,12 @@
         },
         "handAsset": "../presentation/hands/holding-front-two.png",
         "handTransform": [
-          0.5964567,
+          0.5666338649999999,
           0,
           0,
-          0.5964567,
-          290.02232104,
-          251.75616268
+          0.5666338649999999,
+          311.24620498800004,
+          274.018354546
         ],
         "foregroundFingers": {
           "asset": "../presentation/hands/front-two-fingers.png",
