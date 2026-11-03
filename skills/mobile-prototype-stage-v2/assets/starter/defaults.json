@@ -187,64 +187,49 @@
     },
     "gallery": [
       {
-        "id": "folder-hand-dark.png",
-        "label": "hand-dark",
-        "src": "../presentation/backgrounds/hand-dark.png?v=1793004414442907300"
-      },
-      {
         "id": "folder-presets/1.png",
         "label": "1",
-        "src": "../presentation/backgrounds/presets/1.png?v=1793629375432036500"
+        "src": "../presentation/backgrounds/presets/1.png?v=1793720103590862196"
       },
       {
         "id": "folder-presets/2.png",
         "label": "2",
-        "src": "../presentation/backgrounds/presets/2.png?v=1793101435096564000"
+        "src": "../presentation/backgrounds/presets/2.png?v=1793720103619433899"
       },
       {
         "id": "folder-presets/3.png",
         "label": "3",
-        "src": "../presentation/backgrounds/presets/3.png?v=1793629375813244800"
+        "src": "../presentation/backgrounds/presets/3.png?v=1793720103620594386"
       },
       {
         "id": "folder-presets/4.png",
         "label": "4",
-        "src": "../presentation/backgrounds/presets/4.png?v=1793106276552710700"
-      },
-      {
-        "id": "folder-presets/5.png",
-        "label": "5",
-        "src": "../presentation/backgrounds/presets/5.png?v=1793629375912734500"
+        "src": "../presentation/backgrounds/presets/4.png?v=1793720103624263182"
       },
       {
         "id": "folder-presets/6.png",
         "label": "6",
-        "src": "../presentation/backgrounds/presets/6.png?v=1793629376052464600"
+        "src": "../presentation/backgrounds/presets/6.png?v=1793720103641645042"
       },
       {
         "id": "folder-presets/7.png",
         "label": "7",
-        "src": "../presentation/backgrounds/presets/7.png?v=1793629376136100000"
+        "src": "../presentation/backgrounds/presets/7.png?v=1793720103643188151"
       },
       {
         "id": "folder-presets/8.png",
         "label": "8",
-        "src": "../presentation/backgrounds/presets/8.png?v=1793629376270249400"
+        "src": "../presentation/backgrounds/presets/8.png?v=1793720103653438336"
       },
       {
         "id": "folder-presets/9.png",
         "label": "9",
-        "src": "../presentation/backgrounds/presets/9.png?v=1793629376419371600"
+        "src": "../presentation/backgrounds/presets/9.png?v=1793720103668415931"
       },
       {
         "id": "folder-presets/10.png",
         "label": "10",
-        "src": "../presentation/backgrounds/presets/10.png?v=1793629375559671000"
-      },
-      {
-        "id": "folder-presets/11.png",
-        "label": "11",
-        "src": "../presentation/backgrounds/presets/11.png?v=1793629375721913400"
+        "src": "../presentation/backgrounds/presets/10.png?v=1793720103601390836"
       }
     ],
     "colorSources": {
